@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: STUpload - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSPB5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/STUpload.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\FundDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\MainFrm.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\QueryDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\STUpload.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\STUploadDoc.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 7\Solutions\STUpload\STUploadView.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPB5.tmp" 
+Creating temporary file "C:\TEMP\RSPB6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/STUpload.pdb" /debug /machine:I386 /out:"Debug/STUpload.exe" /pdbtype:sept 
+".\Debug\_recordset.obj"
+".\Debug\adodc.obj"
+".\Debug\column.obj"
+".\Debug\columns.obj"
+".\Debug\ConflictDialog.obj"
+".\Debug\dataformatdisp.obj"
+".\Debug\datagrid.obj"
+".\Debug\field.obj"
+".\Debug\fields.obj"
+".\Debug\font.obj"
+".\Debug\FundDialog.obj"
+".\Debug\MainFrm.obj"
+".\Debug\picture.obj"
+".\Debug\properties.obj"
+".\Debug\property.obj"
+".\Debug\QueryDialog.obj"
+".\Debug\ResultsDialog.obj"
+".\Debug\selbookmarks.obj"
+".\Debug\split.obj"
+".\Debug\splits.obj"
+".\Debug\StdAfx.obj"
+".\Debug\stddataformatsdisp.obj"
+".\Debug\StockData.obj"
+".\Debug\StockDataList.obj"
+".\Debug\STUpload.obj"
+".\Debug\STUploadDoc.obj"
+".\Debug\STUploadView.obj"
+".\Debug\STUpload.res"
+]
+Creating command line "link.exe @C:\TEMP\RSPB6.tmp"
+<h3>Output Window</h3>
+Compiling...
+FundDialog.cpp
+MainFrm.cpp
+QueryDialog.cpp
+STUpload.cpp
+STUploadDoc.cpp
+STUploadView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+STUpload.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

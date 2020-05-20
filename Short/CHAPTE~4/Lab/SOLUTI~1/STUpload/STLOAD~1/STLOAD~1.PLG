@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: STLoadData - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/STLoadData.res" /d "_DEBUG" "C:\Julian\MSPress\Desktop\Chapter 12\Solutions\STUpload\STLoadData\STLoadData.rc"" 
+Creating temporary file "C:\TEMP\RSPA2.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/STLoadData.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Julian\MSPress\Desktop\Chapter 12\Solutions\STUpload\STLoadData\STLoadData.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 12\Solutions\STUpload\STLoadData\UploadStockData.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA2.tmp" 
+Creating temporary file "C:\TEMP\RSPA3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/STLoadData.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Julian\MSPress\Desktop\Chapter 12\Solutions\STUpload\STLoadData\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA3.tmp" 
+Creating temporary file "C:\TEMP\RSPA4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/STLoadData.pdb" /debug /machine:I386 /def:".\STLoadData.def" /out:"Debug/STLoadData.dll" /implib:"Debug/STLoadData.lib" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\STLoadData.obj"
+".\Debug\UploadStockData.obj"
+".\Debug\STLoadData.res"
+]
+Creating command line "link.exe @C:\TEMP\RSPA4.tmp"
+Creating temporary file "C:\TEMP\RSPA5.bat" with contents
+[
+@echo off
+regsvr32 /s /c ".\Debug\STLoadData.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+]
+Creating command line "C:\TEMP\RSPA5.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+STLoadData.cpp
+UploadStockData.cpp
+Generating Code...
+Linking...
+   Creating library Debug/STLoadData.lib and object Debug/STLoadData.exp
+<h3>Output Window</h3>
+Performing registration
+RegSvr32: DllRegisterServer in .\Debug\STLoadData.dll succeeded.
+
+
+
+
+<h3>Results</h3>
+STLoadData.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

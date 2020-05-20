@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: STUpload - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/STUpload.res" /d "_DEBUG" "C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\STUpload.rc"" 
+Creating temporary file "C:\TEMP\RSPA5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/STUpload.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\_recordset.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\adodc.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\column.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\columns.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\ConflictDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\dataformatdisp.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\datagrid.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\field.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\fields.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\font.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\FundDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\MainFrm.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\picture.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\properties.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\property.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\QueryDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\ResultsDialog.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\selbookmarks.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\split.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\splits.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\stddataformatsdisp.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\StockData.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\StockDataList.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\STUpload.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\STUploadDoc.cpp"
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\STUploadView.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA5.tmp" 
+Creating temporary file "C:\TEMP\RSPA6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/STUpload.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Julian\MSPress\Desktop\Chapter 9\Partial\STUpload\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA6.tmp" 
+Creating temporary file "C:\TEMP\RSPA7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/STUpload.pdb" /debug /machine:I386 /out:"Debug/STUpload.exe" /pdbtype:sept 
+".\Debug\_recordset.obj"
+".\Debug\adodc.obj"
+".\Debug\column.obj"
+".\Debug\columns.obj"
+".\Debug\ConflictDialog.obj"
+".\Debug\dataformatdisp.obj"
+".\Debug\datagrid.obj"
+".\Debug\field.obj"
+".\Debug\fields.obj"
+".\Debug\font.obj"
+".\Debug\FundDialog.obj"
+".\Debug\MainFrm.obj"
+".\Debug\picture.obj"
+".\Debug\properties.obj"
+".\Debug\property.obj"
+".\Debug\QueryDialog.obj"
+".\Debug\ResultsDialog.obj"
+".\Debug\selbookmarks.obj"
+".\Debug\split.obj"
+".\Debug\splits.obj"
+".\Debug\StdAfx.obj"
+".\Debug\stddataformatsdisp.obj"
+".\Debug\StockData.obj"
+".\Debug\StockDataList.obj"
+".\Debug\STUpload.obj"
+".\Debug\STUploadDoc.obj"
+".\Debug\STUploadView.obj"
+".\Debug\STUpload.res"
+]
+Creating command line "link.exe @C:\TEMP\RSPA7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+_recordset.cpp
+adodc.cpp
+column.cpp
+columns.cpp
+ConflictDialog.cpp
+dataformatdisp.cpp
+datagrid.cpp
+field.cpp
+fields.cpp
+font.cpp
+FundDialog.cpp
+MainFrm.cpp
+picture.cpp
+properties.cpp
+property.cpp
+QueryDialog.cpp
+ResultsDialog.cpp
+selbookmarks.cpp
+split.cpp
+splits.cpp
+Generating Code...
+Compiling...
+stddataformatsdisp.cpp
+StockData.cpp
+StockDataList.cpp
+STUpload.cpp
+STUploadDoc.cpp
+STUploadView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+STUpload.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
